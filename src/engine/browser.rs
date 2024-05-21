@@ -160,7 +160,7 @@ pub fn hide_ui() -> Result<()> {
 fn find_ui() -> Result<Element> {
     Browser::document().and_then(|doc| {
         doc.get_element_by_id("ui")
-            .ok_or_else((|| anyhow!("UI element not found")))
+            .ok_or_else(|| anyhow!("UI element not found"))
     })
 }
 
