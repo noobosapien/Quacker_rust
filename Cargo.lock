@@ -162,6 +162,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "glam"
+version = "0.8.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bb24d4e1b92ceed0450bbf803ac894b597c5b8d0e16f175f7ef28c42024d8cbd"
+
+[[package]]
 name = "itoa"
 version = "1.0.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -282,6 +288,7 @@ dependencies = [
  "futures 0.1.31",
  "futures 0.3.30",
  "getrandom",
+ "glam",
  "js-sys",
  "libc",
  "rand",

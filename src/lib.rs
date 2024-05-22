@@ -1,7 +1,6 @@
 #[macro_use]
 mod engine;
 mod game;
-mod math;
 mod segments;
 mod sound;
 

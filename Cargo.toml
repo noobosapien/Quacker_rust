@@ -40,6 +40,7 @@ js-sys = "0.3.55"
 # allocator, so it's not enabled by default.
 wee_alloc = { version = "0.4.2", optional = true }
 libc = "0.2.155"
+glam = "=0.8.5"
 
 # The `web-sys` crate allows you to interact with the various browser APIs,
 # like the DOM.
